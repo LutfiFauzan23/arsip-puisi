@@ -31,16 +31,15 @@ export default function Home() {
 
       <section className="mx-auto max-w-6xl py-12">
         <p className="text-sm uppercase tracking-[0.3em] text-[#7A2E2E]">
-          Arsip Sastra
+          Lorem ipsum
         </p>
 
         <h2 className="mt-3 text-3xl font-bold md:text-4xl">
-          Kumpulan Puisi dan Catatan
+          Boedoet
         </h2>
 
         <p className="mt-4 max-w-2xl text-lg leading-8 text-[#24160f]/70">
-          Tempat menyimpan karya-karya yang telah ditulis, disusun seperti rak
-          buku pribadi agar lebih nyaman dibaca dan diarsipkan.
+          Lorem ipsum dolor sit amet
         </p>
       </section>
 
