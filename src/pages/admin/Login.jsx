@@ -42,7 +42,7 @@ export default function Login() {
           onChange={(e) => setPassword(e.target.value)}
         />
 
-        <button className="mt-6 w-full bg-[#24160f] px-4 py-3 font-bold text-[#f6eddc]">
+        <button className="mt-6 w-full bg-[#24160f] px-4 py-3 font-bold text-[#f6eddc] cursor-pointer">
           Masuk
         </button>
       </form>

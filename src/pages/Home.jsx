@@ -24,10 +24,14 @@ export default function Home() {
 
   return (
     <main className="min-h-screen bg-[#eadcc3] px-6 py-8 text-[#24160f]">
+      <Link to="/admin/login" className="border border-[#24106f]/40 px-4 py-2 text-xs font-bold uppercase tracking-[0.2em] bg-transparent text-[#24160f] transition-all duration-300 hover:bg-[#7A2E2E] hover:text-[#f6eddc]">
+      Penulis 
+      </Link>
       <nav className="mx-auto flex max-w-6xl items-center justify-between border-b border-[#24160f]/30 pb-4">
         <h1 className="text-xl font-bold tracking-[0.2em]">ARSIP PUISI</h1>
-        <p className="text-sm">Kumpulan Karya Pribadi</p>
+        <p className="text-sm">Kumpulan Karya Puisi</p>
       </nav>
+
 
       <section className="mx-auto max-w-6xl py-12">
         <p className="text-sm uppercase tracking-[0.3em] text-[#7A2E2E]">
